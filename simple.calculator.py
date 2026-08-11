@@ -13,7 +13,10 @@ elif symbol == '*':
     print(f'{num1} * {num2} = {product}')
 elif symbol == '/':
     divide = num1 / num2
-    print(f'{num1} / {num2} = {divide}')
+    if num2 != 0
+       print(f'{num1} / {num2} = {divide}')
+    else:
+        print('Invalid')
 elif symbol == '^':
     power = num1 ** num2
     print(f'{num1} ** {num2} = {power}')
